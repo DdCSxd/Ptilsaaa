@@ -1,0 +1,572 @@
+
+header{
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    background-color: #fff;
+    padding: 2rem 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    border: none;
+}
+
+
+header .barra a{
+    font: 20px 'discord1';
+    padding: 0 1.5rem;
+    color:#f4acad
+}
+
+header .logo img {
+    width: 250px;
+}
+
+header .barra a:hover {
+    color: var(--cor-hover); 
+}
+
+header #toggler{
+    display: none;
+}
+
+header .fa-bars{
+    font-size: 2rem;
+    color: #50555f;
+    border-radius: .5rem;
+    padding: .2rem .5rem;
+    border: .2rem solid rgba(0,0,0,.3);;
+    cursor: pointer;
+    display: none;
+    
+}
+
+header .icons a{
+    font-size: 2rem;
+    color: #f4acad;
+    margin-left: 1.5rem;
+}
+
+header.icons a:hover{
+    color: var(--cor-hover); 
+}
+
+/* topo acaba aqui*/
+
+.topo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    min-height: 80vh;
+    padding: 70px 20px;
+
+    background-color: #f4acad;
+}
+
+.topo .infotopo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 25px;
+
+    margin: auto;
+    width: 500px;
+}
+
+.topo .infotopo img{
+    width: 500px;
+}
+
+.topo .infotopo h1{
+    text-align: center;
+    font: 50px 'discord5';
+    color: white;
+    line-height: 50px;
+    margin: 5px 0;
+
+    margin-top: 100px;
+
+}
+
+.topo p{
+    text-align: center;
+    font: 20px 'discord1';
+    color: white;
+    line-height: 15px;
+    margin: 5px 0;
+}
+
+.topo a{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+    font: 15px 'discord1';
+    color: white;
+    line-height: 15px;
+}
+
+.topo > img{
+    border-radius: 10px;
+    width: 300px;
+}
+
+.faixa1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+    padding: 70px 20px;
+
+    background-color: #f4f4f4;
+}
+
+.faixa1 .info1{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+
+    width: 500px;
+}
+
+.info1 h1{
+    font: 50px 'discord2';
+    color: black;
+    line-height: 50px;
+
+
+}
+
+.info1 p{
+    font: 15px 'discord1';
+    color: #50555f;
+    line-height: 15px;
+}
+
+.info1 a{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+    font: 15px 'discord1';
+    color: black;
+    line-height: 15px;
+}
+
+.faixa1 > img{
+    border-radius: 10px;
+    width: 300px;
+}
+
+.faixa2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+    padding: 70px 20px;
+
+    background-color: #f4f4f4;
+}
+
+.faixa2 .info2{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+
+    width: 500px;
+}
+
+.info2 h1{
+    font: 50px 'discord2';
+    color: black;
+    line-height: 50px;
+
+
+}
+
+.info2 p{
+    font: 15px 'discord1';
+    color: #50555f;
+    line-height: 15px;
+}
+
+.info2 a{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+    font: 15px 'discord1';
+    color: black;
+    line-height: 15px;
+}
+
+.faixa2 > img{
+    border-radius: 10px;
+    width: 300px;
+}
+
+.faixa3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+    padding: 70px 20px;
+
+    background-color: #f4f4f4;
+}
+
+.faixa3 .info3{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+
+    width: 500px;
+}
+
+.info3 h1{
+    font: 50px 'discord2';
+    color: black;
+    line-height: 50px;
+
+
+}
+
+.info3 p{
+    font: 15px 'discord1';
+    color: #50555f;
+    line-height: 15px;
+}
+
+.info3 a{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+    font: 15px 'discord1';
+    color: black;
+    line-height: 15px;
+}
+
+.faixa3 > img{
+    border-radius: 10px;
+    width: 300px;
+}
+
+.faixa4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+    padding: 70px 20px;
+
+    background-color: #f4f4f4;
+}
+
+.faixa4 .info4{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+
+    width: 500px;
+}
+
+.info4 h1{
+    font: 50px 'discord2';
+    color: black;
+    line-height: 50px;
+
+
+}
+
+.info4 p{
+    font: 15px 'discord1';
+    color: #50555f;
+    line-height: 15px;
+}
+
+.info4 a{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+    font: 15px 'discord1';
+    color: black;
+    line-height: 15px;
+}
+
+.faixa4 > img{
+    border-radius: 10px;
+    width: 300px;
+}
+
+/*mapa*/
+
+.local{
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    justify-content: center;
+    background-color: #f4acad;
+    gap: 5em;
+    padding: 3px;
+}
+
+.local iframe{
+    border-radius: 2em;
+    width:600px; height:300px;
+}
+
+.local .box h1{
+    text-align: center;
+    font: 50px 'discord5';
+    color: white;
+    line-height: 50px;
+
+    margin: 50px;
+}
+
+.local .box p{
+    color: white;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.imglocal {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+    flex-wrap: wrap; 
+}
+
+.imglocal img {
+    width: 200px; 
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+
+
+/*Clientes*/
+
+.heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+    padding: 30px 20px;
+
+    font-size: 3rem;        
+    font-family: 'Discord5', sans-serif;  
+    color: white;          
+    line-height: 50px;     
+    
+}
+
+
+.heading span {
+    padding: 0.2rem 0.5rem;  
+    border-radius: 5px; 
+}
+
+.review{
+    min-height: 80vh;
+    background-color: #f4acad;
+    padding: 3rem 1rem;
+}
+
+.review .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.review .box {
+    background-color: white;     
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);  
+    border-radius: 1rem;         
+    padding: 2rem;               
+    width: 100px;            
+    text-align: center;  
+}
+
+.review .box-container .box{
+    flex: 1 1 30rem;
+    border-radius: .5rem;
+    padding: 3rem 2rem;
+    position: relative;
+    border: .1rem solid rgba(0,0,0,.1);
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.review .box-container .box .stars{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-top: 1rem;
+    padding: 5px;
+}
+
+.review .box-container .box .stars i{
+    color: var(--cor-hover); 
+    font-size: 1.5rem;
+}
+
+.review .box-container .box p{
+    color: #555; 
+    font-size: 1.1rem;
+    line-height: 1.8;
+    padding-top: 2rem;
+    text-align: center; 
+}
+
+.review .box-container .box .user{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.review .box-container .box .user img{
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.review .box-container .box .user h3{
+    font-size: 1.3rem;
+    color: #333;
+    margin: 0;
+
+}
+
+.review .box-container .box .user span{
+    display: block;
+    font-size: 1rem;
+    color: #999;
+    
+}
+
+/*Footer*/
+
+.footer {
+    min-height: 5vh;
+    background-color: #999;   
+    padding: 2rem;            
+    color: white;             
+    text-align: center;       
+}
+
+.footer div {
+    display: flex;
+    flex-direction: column;   
+    align-items: center;      
+    gap: 0.5rem;              
+}
+
+
+/* Tamanho de telas*/
+
+@media(max-width:991px){
+
+    html{
+        font-size: 55%;
+    }
+
+    header{
+        padding:2rem;
+    }
+
+    .faixa1 > img, 
+    .faixa2 > img, 
+    .faixa3 > img, 
+    .faixa4 > img {
+    border-radius: 10px;
+    max-width: 150px;
+    height: auto;
+    }
+
+}
+
+@media(max-width:768px){
+
+    html .fa-bars{
+        display: block;
+    }
+
+    header .barra{
+        position: absolute;
+        top:100%; left:0; right:0;
+        background-color: #eee;
+        border-top: .1rem solid rgba(0,0,0.1);
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    }
+
+    #toggler:checked ~ .barra {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+
+    header .barra a{
+        margin: 1.5rem;
+        padding: 1.5rem;
+        border: .1rem solid rgba(0,0,0.1);
+        background-color: #fff;
+        display: block;
+    }
+
+    header .icons a{
+        font-size: 3rem;
+    }
+    
+    .faixa1 > img, 
+    .faixa2 > img, 
+    .faixa3 > img, 
+    .faixa4 > img {
+    border-radius: 10px;
+    max-width: 150px;
+    height: auto;
+    }
+
+}
+
+@media(max-width:450px){
+
+    html{
+        font-size: 50%;
+    }
+
+    header{
+        padding:2rem;
+    }
+  
+    .faixa1 > img, 
+    .faixa2 > img, 
+    .faixa3 > img, 
+    .faixa4 > img {
+    border-radius: 10px;
+    max-width: 150px;
+    height: auto;
+    }
+
+    
+}

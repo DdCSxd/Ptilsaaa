@@ -1,0 +1,20 @@
+:root{
+    --cor-hover: #f4acad;
+}
+
+*{
+    font-family: 'Discord1', sans-serif;
+    margin: 0px; padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    transition: .2s linear;
+}
+
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+    overflow-x: hidden;
+    text-decoration: none;
+}
+
+
